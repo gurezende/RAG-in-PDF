@@ -23,10 +23,10 @@ This project is an AI-powered Question-Answering (Q&A) application that lets use
 ## 📂 Project Structure
 
 .
-├── app.py # Streamlit app interface
-├── pdf_rag.py # RAGPDF class to manage vector DB, memory, and agent
-├── Dockerfile # Dockerfile to run the app
-└── temp.pdf # Temporary uploaded file (generated at runtime)
+├── app.py # Streamlit app interface<br>
+├── pdf_rag.py # RAGPDF class to manage vector DB, memory, and agent<br>
+├── Dockerfile # Dockerfile to run the app<br>
+└── temp.pdf # Temporary uploaded file (generated at runtime)<br>
 
 
 ## ▶️ Getting Started
@@ -84,6 +84,10 @@ Memory is stored in a temporary SQLite file under `tmp/memory.db` for the local 
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+## Known Issues
+
+Memory still not available for the Dockerized version.
 
 ## About
 
