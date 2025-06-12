@@ -43,7 +43,7 @@ cd pdf-rag-app
 Add the needed API Keys: OpenAI
 
 
-#### 3. Run Locally (Without Docker)
+### 3. Run Locally (Without Docker)
 
 Install dependencies:
 
@@ -57,7 +57,7 @@ Run the Streamlit app:
 streamlit run app.py
 ```
 
-#### 4. Run with Docker
+### Alternative: Run with Docker
 
 Build the Docker image:
 
