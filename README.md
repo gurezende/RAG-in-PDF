@@ -71,12 +71,12 @@ Access the app in your browser at http://localhost:8501.
 
 Upload any PDF file (e.g., a research paper or report).
 
-Enter a question like:
+Enter a question like:<br>
 `"What is the main topic in this document?"`
 
 The app will return a contextualized answer, retrieving relevant parts of the document.
 
-📌 Notes
+### 📌 Notes
 By default, the app uses an in-memory Qdrant instance, which is not persistent.
 
 Memory is stored in a temporary SQLite file under `tmp/memory.db` for the local run.
