@@ -22,7 +22,7 @@ This project is an AI-powered Question-Answering (Q&A) application that lets use
 
 ## 📂 Project Structure
 
-.
+.<br>
 ├── app.py # Streamlit app interface<br>
 ├── pdf_rag.py # RAGPDF class to manage vector DB, memory, and agent<br>
 ├── Dockerfile # Dockerfile to run the app<br>
