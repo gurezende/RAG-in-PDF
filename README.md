@@ -11,6 +11,10 @@ This project is an AI-powered Question-Answering (Q&A) application that lets use
 - 🧠 Agent memory stored in SQLite
 - 🔄 Persistent document memory with intelligent search and retrieval
 
+## Demo
+
+![](/img/output.gif)
+
 ## 🛠️ Tech Stack
 
 - **Frontend:** Streamlit
