@@ -1,4 +1,5 @@
 # Imports
+import os
 import streamlit as st
 from pdf_rag import RAGPDF
 
@@ -33,7 +34,6 @@ if uploaded_file:
     knowledge_base = rag_agent.knowledge_base(temp_file, vector_db)          
     # Create agent
     agent = rag_agent.create_agent(knowledge_base, memory)
-    memory.clear()
     knowledge_base.load(recreate=False, skip_existing=True)
 
     with st.spinner():
@@ -42,3 +42,9 @@ if uploaded_file:
             # Run agent
             response = agent.run(prompt)
             st.write( response.content )
+
+
+with st.sidebar:
+    # Clean up
+    if st.button("Clear memory"):
+        os.remove("temp.pdf")

@@ -1,7 +1,11 @@
 services:
-  stremalit:
+  streamlit:
     build: .
     ports:
       - "8501:8501"
+    volumes:
+      - ./tmp:/tmp
+    environment:
+      - db_file=/tmp/memory.db
     env_file:
       - .env
