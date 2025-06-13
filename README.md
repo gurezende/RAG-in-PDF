@@ -87,7 +87,7 @@ This project is licensed under the MIT License.
 
 ## Known Issues
 
-Memory still not available for the Dockerized version.
+Fixed: Memory is now available for the Dockerized version.
 
 ## About
 
